@@ -2,9 +2,15 @@
 
 1:prepare.py
 
+modify download_path = '../Market'
+
 2:train_11.py
 
+modify data_dir = '../Market'
+
 3:test.py
+
+modify test_dir = '../Market/pytorch'
 
 4:evaluate_gpu.py
 
@@ -20,16 +26,17 @@ Market 1501
 
            Resnet50(IBN) :    batchsize=32 :         Rank1 =95.8    ,    mAP=89.24
 
-    
-                 
-                 
+
+​    
+​                 
+​                 
 DukeMTMC-REID 
 
            Resnet50:          batchsize =32 :        Rank1 =88.84     ,    mAP=77.95
 
 
           Resnet50(IBN):     batchsize =32 :        Rank1 =90.1    ,    mAP=79.7
-
+    
           pytorch = 0.4
 
 
